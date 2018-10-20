@@ -204,7 +204,6 @@ def main(_):
   
   create_tf_record(train_output_path, label_map_dict, annotations_dir,
                    image_dir, train_examples)
-  create_tf_record(val_output_path, label_map_dict, annotations_dir,
-                   image_dir, val_examples)
+
 if __name__ == '__main__':
   tf.app.run()
